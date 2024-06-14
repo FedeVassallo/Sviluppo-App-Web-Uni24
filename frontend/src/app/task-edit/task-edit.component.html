@@ -1,0 +1,27 @@
+<div>
+  <h1>Modifica Task</h1>
+  
+  <form (submit)="updateTask()">
+    <label>Titolo:</label>
+    <input type="text" [(ngModel)]="taskData.title" name="title" required>
+    <br>
+    
+    <label>Descrizione:</label>
+    <textarea [(ngModel)]="taskData.description" name="description" required></textarea>
+    <br>
+    
+    <label>Data Scadenza:</label>
+    <input type="date" [(ngModel)]="taskData.due_date" name="due_date" required>
+    <br>
+    
+    <label>Priorità:</label>
+    <select [(ngModel)]="taskData.priority" name="priority" required>
+      <option value="bassa">Bassa</option>
+      <option value="media">Media</option>
+      <option value="alta">Alta</option>
+    </select>
+    <br>
+    
+    <button type="submit">Salva Modifiche</button>
+  </form>
+</div>

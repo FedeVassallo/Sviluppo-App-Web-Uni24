@@ -46,8 +46,10 @@ per visualizzare il server: localhost:8000
 
 2)frontend
 
-cd .
+cd ./frontend
 
-/frontend ng serve
+ng serve
+
+per visualizzare il frontend: localhost:4200
 
 (eventualmente cambiare la directory con il relativo percorso)

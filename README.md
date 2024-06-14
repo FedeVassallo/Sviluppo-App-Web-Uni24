@@ -39,6 +39,7 @@ Per ottenere il progetto basta scaricare tutta la repository e avviare la parte 
 1)Backend: 
 
 cd ./Backend 
+
 php artisan serve
 
 per visualizzare il server: localhost:8000
@@ -46,6 +47,7 @@ per visualizzare il server: localhost:8000
 2)frontend
 
 cd .
+
 /frontend ng serve
 
 (eventualmente cambiare la directory con il relativo percorso)
